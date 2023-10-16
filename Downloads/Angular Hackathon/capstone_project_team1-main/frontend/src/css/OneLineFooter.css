@@ -1,0 +1,29 @@
+.footerContainer {
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    text-align: center; 
+    border-top: 2px solid #42145f; 
+    font-family: RN-House-Sans-W01-Regular;
+    font-size: 13px; 
+    line-height: 1.2308;
+    bottom: 0;
+    padding-bottom: 0.25rem;
+}
+
+.footerContainer ul {
+    color: #42145f;
+
+    padding: 1rem 0 0 0;
+}
+
+.footerContainer li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+}
+
+.footerContainer a {
+    color: #ad1982;
+    padding: 0.25rem;
+}

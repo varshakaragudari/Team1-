@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "knileHouse" !important;   /*Can be any text*/
+  src: local("RN House Sans W01 Regular.woff"),
+    url("./fonts/RN-House-Sans-W01-Regular.woff") format("truetype") !important;
+}
+body{
+  font-family: 'knileHouse'!important;
+}
+

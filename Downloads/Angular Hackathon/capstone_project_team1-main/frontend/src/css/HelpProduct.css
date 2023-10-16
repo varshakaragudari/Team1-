@@ -1,0 +1,37 @@
+.div1{
+    background-color: #f2f2f8;
+}
+.roww1 h5{
+    text-align: left;
+}
+.roww1 h5 button {
+    border: none;
+    background-color: none;
+}
+.roww1 h5 button {
+    font-family: "High" !important;
+    color: #c48eeb;
+    text-decoration: underline;
+    text-align: left;
+}
+.roww1 h5 button:hover{
+    font-family: "High" !important;
+    color: #9330db;
+}
+.qwert{
+    margin-top: 0%;
+    background-color: #f2f2f8;
+}
+.qwert .qwertHeading{
+    color: #5a287d;
+    text-align: center;
+    background-color: #f2f2f8;
+    margin: 0px !important;
+}
+.qwert .qwertAnswer{
+    padding:20px 10px;
+    background-color: #f2f2f8;
+    color: #646068;
+    font-family: "High";
+    text-align: left;
+}

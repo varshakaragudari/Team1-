@@ -1,0 +1,76 @@
+.icon {
+    margin-bottom: 1.25rem;
+}
+
+.tap-pay-image-banner {
+    object-fit: cover;
+}
+
+@media all and (min-width:768px) {
+    .tap-pay-image-banner {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px; 
+    }
+}
+
+@media all and (max-width:768px) {
+    .tap-pay-image-banner {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; 
+    }
+}
+
+
+.article-box a {
+    height: 400px;
+    max-width: 300px;
+    background-color: white;
+}
+
+.city-bg {
+    background-image: url('../images/city.jpg');
+    padding: 2rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-container-rounded {
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    padding: 1rem; 
+    border-radius: 35px;
+}
+
+.regular-txt-card {
+    min-height: 400px;
+    max-width: 400px;
+    background-color: #6460681f;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.ellipsis-bottom {
+    clip-path: ellipse(60% 15%);
+    width: 100%; 
+    min-height: 300px; 
+    background-color: #5a287d;
+    margin-top: -8rem;
+    z-index: 0;
+}
+
+.top-text {
+    color: white;
+    font-weight: 700;
+}
+
+.zi-1 {
+    z-index: 1;
+}
+
+.header-image {
+    border-bottom-left-radius: 50px;
+    float: right;
+}

@@ -1,0 +1,143 @@
+
+.Main-Content{
+    background-color:#f2f2f8;
+    padding: 2rem;
+    width: 100%;
+}
+
+.Main-Content h1{
+    font-family: 'knile';
+}
+.sideBar{
+    position: fixed;
+    height: 100% !important;
+    margin-top: -3.5rem ;
+}
+.sideBar-Heading{
+    height: 100px;
+    display: flex;
+    align-items: center;
+   margin-top: 1.5rem;
+    align-content: center;
+    /* background-color: #5e10b1 */
+}
+.sideBar-Heading {
+    height: 100px;
+    /* background-color: #5e10b1 */
+}
+.sideBar a:hover{
+    background-color: #646068;
+    color: white !important;
+}
+
+.CurrentAcc{
+    border: 0.5px solid #f2f2f8;
+    border-radius: 10px;
+    width: 20rem;
+}
+.SavingAcc{
+    border: 0.5px solid #f2f2f8;
+    border-radius: 10px;
+    width: 20rem;
+   
+}
+.Account-info{
+    padding: 1rem;
+    align-items: start;
+}
+.AccBalance{
+    padding-top: 2rem;
+    font-weight: bolder;
+}
+.Saving-AccBalance{
+    padding-top: 0.8rem;
+    font-weight: bolder;
+}
+.Switch-Btn{
+    background-color: #5e10b1;
+    border-radius: 100px;
+    color: white;
+}
+
+.Switch-Btn:hover{
+    background-color: purple;
+}
+.Switch-link{
+    text-decoration: none;
+}
+.Transaction-link{
+    text-decoration: none;
+}
+.promotion{
+    height: 34rem;
+    width: auto;
+    background-color: #5e10b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promotion h4{
+    color: white;
+    margin-top: 7rem;
+    padding-left: 10px;
+    /* font-family: 'knile'; */
+}
+.promotion-link{
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.promotion-Btn{
+    background-color: white;
+    border-radius: 100px;
+    display: block;
+    color: #5e10b1;
+    padding: 7px 13px 7px 13px;
+    text-decoration: none;
+   
+}
+.NatwestImg{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+}
+.Recent-Transactions{
+    width: 74%;
+    
+}
+
+.Recent-Transactions h3{
+    padding: 20px;
+    color:#5e10b1;
+    font-family: 'knile' !important;
+}
+.Recent-Transactions a{
+    align-items:end;
+}
+.Payment{
+    
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: fit-content;
+    
+}
+.Payment-Body{
+    background-color:#f2f2f8;
+}
+.Payment-Body h3{
+    color: #646068;
+    padding-left: 25px;
+}
+.Payment-Body p{
+    color: #5e10b1;
+  
+}
+.Payment-Body a{
+    text-decoration: none;
+}
+.Payment-Body img{
+    height: 50px;
+    width: 50px;
+}
+.Payment-Body .Content{
+ justify-content: space-evenly;
+}

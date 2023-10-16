@@ -1,0 +1,115 @@
+.main-1 {
+  height: 100%;
+  max-width: 650px;
+}
+
+.feedbackbox-header {
+  background-color: #5a287d;
+  color: white;
+  width: 100%;
+}
+
+.feedbackbox {
+  max-width: 650px;
+  background-color: #ffffff;
+  border: 1px solid #5a287d;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  clear: both;
+  text-align: left;
+  width: 100%;
+}
+
+.nextButton {
+  padding: 10px 2rem 10px 2rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  background: #0c7f88;
+  text-decoration: none;
+  font-size: 1rem;
+  border: none;
+  font-family: RN-House-Sans-W01-Regular, Verdana, Helvetica, Sans-serif;
+}
+
+.error-message {
+  color: red;
+}
+
+/* 
+.feedback-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  label {
+    display: block;
+    color: #333333;
+    font-family: "High" !important;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  button[type="submit"] {
+    color:#333333;
+    background-color:#ccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:#646068;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  h1{
+    color: #5a287d !important;
+    margin-top: 50px !important;
+    font-family: "Light" !important;
+  }
+  p{
+    color: #333333 !important;
+    font-family: "High" !important;
+  }
+  .form-group.error label {
+    color: red;
+  }
+  
+  .form-group.error select,
+  .form-group.error input,
+  .form-group.error textarea {
+    border-color: red;
+  }
+  
+  .form-group.error input::after,
+  .form-group.error textarea::after {
+    content: " !";
+    color: red;
+  }
+  .pp1{
+    text-align: left !important;
+    font-style: italic !important;
+  } */

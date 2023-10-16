@@ -1,0 +1,62 @@
+.cn1{
+    background-color: #4e039e !important;
+    max-width: 100%;
+    color: white;
+}
+.nav1 .nav-link{
+    color: #f6f5f3;
+}
+.nav2 .nav-link{
+    color: #f6f5f3;
+}
+/* .nav2{
+    display: flex !important;
+    justify-content: right !important;
+    margin-left: 60%;
+} */
+
+.cn1 .nav1 .nav-link:hover{
+    color: #f6f5f3;
+    text-decoration: dashed #f6f5f3 4px !important;
+}
+.nav1 a:hover{
+    /* border-color: white !important; */
+    background-color: #5a287d;
+    text-decoration: underline solid #f6f5f3 1px !important;
+}
+#btn1:hover{
+    background-color: #5a287d !important;
+}
+
+@media (max-width:860px){
+    .nav2{
+        margin-left: 40%;
+    }   
+}
+@media (max-width:768px){
+    .nav2{
+        margin-left: 0%;
+    }   
+}
+
+
+.natwest-button-login {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background: #5e10b1;
+    border: 1px solid #5e10b1;
+    border-radius: 1.5625rem;
+    color: #fff;
+    font-family: RN-House-Sans-W01-Regular,Arial,sans-serif;
+    font-size: 0.8rem;
+    justify-content: center;
+    line-height: 0.8;
+    min-width: 4rem;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }

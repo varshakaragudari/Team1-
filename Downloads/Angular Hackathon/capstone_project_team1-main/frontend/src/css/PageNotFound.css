@@ -1,0 +1,23 @@
+
+.header-area {
+    background: #f2f2f8;
+    padding: 4.375rem 0 2.5rem;
+    position: relative;
+    scroll-margin-top: var(--navHeight);
+    text-align: center;
+    z-index: 2;
+}
+
+.header-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35rem;
+}
+
+.header-text-style {
+    text-wrap: balance;
+    color: #5a287d;
+    font-family: Knile-Regular,Georgia,serif;
+    letter-spacing: -.0625rem;
+    line-height: 1;
+}

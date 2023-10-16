@@ -1,0 +1,90 @@
+.summary-box{
+    height: 20vh;
+    
+    justify-self: center;
+}
+.Saving-summary{
+   
+    margin-right: 2rem;
+
+}
+.Accounts{
+    width: fit-content;
+}
+.Saving-Body{
+  
+    background-color: #5e10b1;
+}
+.Saving-Body h3{
+    color: #646068;
+    
+    padding-bottom: 5px;
+}
+.Saving-Body p{
+    color: white;
+  
+}
+.Saving-Body a{
+    text-decoration: none;
+}
+.Saving-Body img{
+    height: 50px;
+    width: 50px;
+}
+.Saving-Body .Content{
+ justify-content: space-evenly;
+}
+.Saving-Button{
+
+width: fit-content;
+padding: 1rem ;
+justify-content: space-evenly;
+}
+.fancyImg{
+    width: 60vh;
+    margin-top: 7.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a287d;
+    margin-left: 10%;
+}
+
+.fancyImg h2{
+   
+    color: white;
+    font-weight: bold;
+    font-size:46px;
+}
+.Goals{
+   
+    width: 50%;
+}
+.left-side{
+    display: flex;
+    align-items: start;
+    width: 70%;
+}
+.modal .col{
+    cursor: pointer;
+}
+.goalBody{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    
+    flex-direction: row;
+    padding: 0.2rem ;
+}
+.goalBody:hover{
+    display: flex;
+  
+   
+    border-radius: 20px;
+    background-color: lightgray
+}
+.HoverStyle{
+    border-radius: 20px;
+    background-color: lightgray
+}

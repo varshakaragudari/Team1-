@@ -1,0 +1,110 @@
+.main-1 {
+    height: 100%;
+    max-width: 650px;
+}
+
+.signupbox-header {
+    background-color: #5a287d;
+    color: white;
+    width: 100%;
+}
+
+.signupbox {
+    max-width: 650px;
+    background-color: #ffffff;
+    border: 1px solid #5a287d;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    clear: both;
+    text-align: left;
+    width: 100%;
+}
+
+.nextButton {
+    padding: 10px 2rem 10px 2rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #0c7f88;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    font-family: RN-House-Sans-W01-Regular, Verdana, Helvetica, Sans-serif;
+}
+
+/* div {
+    display: block;
+    color: #333333
+}
+
+p {
+    color: #333333;
+}
+
+div.main-1 {
+    width: 575px;
+    height: 100%;
+    display: inline-block;
+}
+
+h1.MH {
+    color: #42145F;
+    width: 543px;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+div.signupbox {
+    width: 541px;
+    background-color: #ffffff;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    clear: both;
+    text-align: left;
+}
+
+h2.STB1 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding: 0.5rem 1rem;
+    background: #5A287D;
+    color: #FFFFFF;
+    border: 1px solid #5A287D;
+    border-bottom: 0px solid #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    text-align: left;
+}
+
+div.signupbodybox {
+    background-color: #FFFFFF;
+    border: 1px solid #B4A99F;
+    border-top: 0px solid #ffffff;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin: 0;
+    margin-top: 0;
+    padding-top: 1rem !important;
+}
+
+input.form-control {
+    margin-bottom: 0;
+    width: 200px;
+    margin: 0 3px 0 0;
+    height: 32px !important;
+    border: 1px solid #979797;
+    padding-top: 1px;
+}
+
+div.inputAndButtonInline {
+    display: flex;
+} */

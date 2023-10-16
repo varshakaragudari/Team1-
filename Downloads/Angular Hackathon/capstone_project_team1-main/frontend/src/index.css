@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Knile-Regular"; 
+  src: local("KnileRegular"),url("./fonts/knile-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Knile-Regular-Italic"; 
+  src: local("KnileRegularItalic"),url("./fonts/knile-regularitalic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "RN-House-Sans-W01-Regular"; 
+  src: local("RN-House-Sans-W01-Regular"),url("./fonts/RN-House-Sans-W01-Regular.woff") format("woff");
+}
+
+html *
+{
+  font-family: 'RN-House-Sans-W01-Regular';
+}
+
+body {
+  margin: 0;
+  background-color: #f6f5f3;
+  font-family: 'RN-House-Sans-W01-Regular', 'Knile-Regular', 'Knile-Regular-Italic';
+  font-size: larger;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.knile-regular-font {
+  font-family: 'Knile-Regular';
+}
+
+.knile-italic-font {
+  font-family: 'Knile-Regular-Italic';
+}
+
+.rn-house-font {
+  font-family: 'RN-House-Sans-W01-Regular';
+}
+
+.natwest-button {
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #5e10b1;
+  border: 1px solid #5e10b1;
+  border-radius: 1.5625rem;
+  color: #fff;
+  font-family: RN-House-Sans-W01-Regular,Arial,sans-serif;
+  font-size: 1.125rem;
+  justify-content: center;
+  line-height: 1.3333333333;
+  min-width: 6rem;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+}
+
+.prim-colr-btn {
+  color: #5a287d;
+  background-color: white;
+  border: #5a287d 1px solid;
+}
+
+.prim-colr {
+  color: #5a287d;
+}
+
+.prim-bg-colr {
+  background-color: #5a287d;
+}
+
+table.table tr th{
+  background-color:#5a287d !important; 
+  color:white !important;
+}
+
+.prim-colr-btn:hover {
+  background-color: white;
+  color: #5a287d;
+  border: #5a287d 1px solid;
+}
+
+.max-width-1 {
+  max-width: 650px;
+}
+
+h1, .h1, h2, .h2 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.txt-align-center {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h1, .h1, h2, .h2-custom, .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+ 
+@media(min-width:768px) and (max-width:1023px){
+  .container{width:720px}
+}
+@media(min-width:1024px) and (max-width:1255px){
+  .container{width:956px}
+}
+@media(min-width:1256px){
+  .container{width:956px}
+}
+@media(min-width:768px) and (max-width:1023px){
+  .container{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:24px;
+    padding-right:24px
+  }
+  .container:before,.container:after{
+    content:" ";
+    display:table
+  }
+  .container:after{
+    clear:both
+  }
+}
+@media(min-width:1024px) and (max-width:1255px){
+  .container{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:30px;
+    padding-right:30px
+  }
+  .container:before,.container:after{
+    content:" ";
+    display:table
+  }
+  .container:after{
+    clear:both
+  }
+}
+
+.white-bg-container {
+  background-color: white;
+  width: 100%;
+  padding: 3rem;
+}
+
+.light-purple-bg-container {
+  background-color: #5a287d;
+  width: 100%;
+}
+
+.mw-1024 {
+  max-width: 1024px;
+}
+.h1-regular {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.h2-regular {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.header-text-style {
+  text-wrap: balance;
+  color: #5a287d;
+  font-family: Knile-Regular,Georgia,serif;
+  letter-spacing: -.0625rem;
+  line-height: 1;
+}
+
+
+.max-w-fit {
+  max-width: fit-content;
+}

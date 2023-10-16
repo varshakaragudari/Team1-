@@ -1,0 +1,266 @@
+/* div {
+    display: block;
+    color: #333333;
+    font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+}
+
+p {
+    color: #333333;
+    font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+}
+
+div.main-1, div.main-2 {
+    width: 575px;
+    height: 100%;
+    display: inline-block;
+}
+
+h1.MH {
+    color: #42145F;
+    width: 543px;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    
+}
+
+div.loginbox {
+    width: 541px;
+    background-color: #ffffff;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    clear: both;
+    text-align: left;
+}
+
+h2.LTB1 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding: 0.5rem 1rem;
+    background: #5A287D;
+    color: #FFFFFF;
+    border: 1px solid #5A287D;
+    border-bottom: 0px solid #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    text-align: left;
+}
+
+div.loginbodybox {
+    background-color: #FFFFFF;
+    border: 1px solid #B4A99F;
+    border-top: 0px solid #ffffff;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin: 0;
+    margin-top: 0;
+    padding-top: 1rem !important;
+}
+
+span.LBB1-1-span {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+div.LBB1-2-1-radio, div.LBB1-2-3-radio {
+    font-weight: normal;
+}
+
+input.radioCustomerNumber, input.radioCardNumber {
+    margin-bottom: 0;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem 0.25rem;
+    vertical-align:middle;
+    border: none;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font-size: 1rem;
+    line-height: 1.5;
+
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    padding: initial;
+
+    padding-bottom: 0;
+    
+}
+
+span.labelCustomerNumberRadio-span, span.labelCardNumberRadio-span {
+    margin-left: 5px;
+}
+
+div.loginForm1-1, div.loginForm1-2 {
+    margin: 0;
+    margin-left: 44px;
+
+}
+
+p.labelCustomerNumberForm, p.labelCardNumberForm {
+    margin: 0;
+    line-height: 1.5;
+    padding-bottom: 0.25rem;
+}
+
+
+a.forgotLoginDetails-a {
+    color: #AD1982;
+    display: inline;
+    margin-right: 0;
+    text-decoration: underline;
+    padding-right: 1.25rem;
+    cursor: pointer ;
+
+}
+
+div.LBB1-2-3-radio {
+    padding-top: 0.5rem;
+}
+
+span.whyUseMyCard {
+    color: #AD1982;
+}
+
+p.whyUseMyCard {
+    margin: 0;
+}
+
+p.gap {
+    margin: 1em 1em 1em 0;
+}
+
+div.rememberMe {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+div.rememberMe3 {
+    margin-left: 4px;
+}
+
+input.rememberMeCheckBox {
+    margin-bottom: 0;
+    transform: scale(2.2);
+    margin-left: 11px;
+    margin-right: 1em;
+    vertical-align: middle;
+    border: none;
+}
+
+label.labelRememberMe {
+    line-height: 2rem;
+    padding: 10px 0 8px 2.5rem;
+    clear: none;
+    cursor: pointer;
+    margin-left: -39px;
+}
+
+span.rememberMe3-span2 {
+    color: #AD1982;
+    margin: 0;
+}
+
+p.whatDoesThisMean {
+    margin: 0;
+}
+
+span.whatDoesThisMean-span {
+    margin-left: 44px;
+    display: block;
+}
+
+div.buttonsSignUpContinue, div.buttonsBackNext {
+    margin-top: 32px;
+}
+
+button.continueButton, button.nextButton {
+    padding: 10px 2rem 10px 2rem;
+    margin: 0 32px 1.25rem 0;
+    float: right;
+    height: 44px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #0c7f88;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    font-family: RNHouseSans-Regular, Verdana, Helvetica, San-serif;
+}
+
+div.signUpLink, div.backLink {
+    height: 44px;
+    vertical-align:middle;
+}
+
+div.backLink {
+    text-align: left;
+}
+
+a.backLink-a {
+    color: #AD1982;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.signUpLink1 {
+    margin-top: -8px;
+    text-align: left;
+}
+
+span.signUpLink1-span {
+    text-decoration: none;
+}
+
+a.signUpLink1-a {
+    color: #AD1982;
+}
+
+div.extraInfo {
+    padding-right: 1.5rem;
+    padding-top: 1rem !important;
+}
+
+span.extraInfo-span {
+    display: block;
+    text-align: left;
+}
+
+h3.displayCustomerNumber {
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+p.loginRoute {
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+a.loginRoute-a {
+    color: #AD1982;
+}
+
+h2.pinEntry-h2, h2.passwordEntry-h2 {
+    font-weight: normal;
+    color: #5A287D;
+}
+
+p.labelPinEntry, p.labelPasswordEntry {
+    color: #333333;
+}
+
+a.forgotPinPassword {
+    color: #AD1982;
+} */

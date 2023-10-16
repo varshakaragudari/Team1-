@@ -1,0 +1,41 @@
+/* FeedbackList.css */
+.h2list{
+    color: #5a287d !important;
+    font-family: "Light" !important;
+    margin-top: 10px;
+}
+.feedback-list-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+  }
+  
+  .feedback-list-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f6f5f3;
+    font-family: "High";
+    color: #333333;
+  }
+  .feedback-list-item .deletebutton{
+    margin-top: 10px;
+    color:#333333;
+    background-color:#ccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .feedback-list-item .deletebutton:hover{
+    background-color: #646068;
+  }
+  
+  @media (max-width: 576px) {
+    /* For screens smaller than or equal to 576px (e.g., xs), switch to single-column layout */
+    .feedback-list-container {
+      grid-template-columns: 1fr;
+    }
+  }

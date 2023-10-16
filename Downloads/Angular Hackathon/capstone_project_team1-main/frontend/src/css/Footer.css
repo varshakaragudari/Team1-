@@ -1,0 +1,90 @@
+.footerContainer2 {
+    background-color: #5a287d ;
+    display: flex;
+    clear: both;
+    flex-flow: row wrap;
+    position:sticky;
+    bottom: 0;
+    float:left;
+    overflow: auto;
+    width: 100%;
+    color: #f6f5f3 !important;
+}
+
+.abc1 {
+    color: #f6f5f3 !important;
+}
+
+.bt1 .Row1 .bt1p{
+    color: #f6f5f3 !important;
+    text-align: center;
+    padding-right: 3px;
+    font-family: "High";
+}
+.di1{
+    padding-top: 50px;
+}
+
+.rw1 {
+    color: #f6f5f3;
+}
+
+.rw1 .rw1col1 .abc1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Light";
+
+}
+.rw1 .rw1col2 {
+    color: #f6f5f3;
+    font-family: "Light";
+    padding: 10px;
+    
+}
+.rw1 .rw1col2 h5{
+    color: #f6f5f3;
+    font-family: "Light";
+    margin-bottom: 20px;
+    
+}
+.rw1 .rw1col2 p a{
+    color: #f6f5f3 !important;
+    font-family: "High";
+    text-decoration: none !important;
+    
+}
+
+.rw1col2 p a:hover{
+    color: #f6f5f3 !important;
+    font-family: "High";
+    text-decoration: underline solid #f6f5f3 1px !important;
+}
+
+.rw1 .rw1col3 h5{
+    padding: 10px;
+    
+}
+
+.rw1 .rw1col3 h5{
+    color: #f6f5f3 !important;
+    font-family: "Light";
+    text-decoration: none !important;
+    margin-bottom: 20px;
+    
+}
+.rw1 .rw1col3 p{
+    color: #f6f5f3 !important;
+    font-family: "High";
+    text-decoration: none !important;
+    text-align: left;
+    
+}
+
+.bt1p {
+    color: #f6f5f3 !important;
+    font-size: 0.9rem;
+}
+
+.bt-white {
+    border-top: 4px white solid;
+}
